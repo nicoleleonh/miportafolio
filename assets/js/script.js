@@ -14,4 +14,6 @@ $(function () {
         $('#typeform').removeClass('d-none');
         $(this).hide()
     });
+
+    $('[data-toggle="tooltip"]').tooltip()
 });
