@@ -1,0 +1,44 @@
+
+span, h1, h3{
+    font-family: 'Gruppo', cursive;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar, .works, footer {
+    background-color: #f47b8f;
+}
+hr {
+    width: 10%;
+    background-color:white;
+  }
+.underline {
+    width: 15%;
+    background-color:black;
+  }
+.mysection {
+    background-image: url('../img/me.jpg');
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.mysection .absolute-bottom-center {
+    bottom: 0px;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+
+.experience img{
+    width: inherit;
+}
+
+#pqr{
+    margin-bottom: 5%;
+}
+
+.icon{
+    font-size: 3em;
+}
