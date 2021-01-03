@@ -16,4 +16,8 @@ $(function () {
     });
 
     $('[data-toggle="tooltip"]').tooltip()
+
+    $('#myModal,#myModal2,#myModal3,#myModal4').on('shown.bs.modal', function () {
+        
+      })
 });
